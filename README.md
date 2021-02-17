@@ -1,0 +1,54 @@
+# React- Movies Application
+
+## Description:
+
+This is a assessment front-end project. The aim of this assessment is to build a movie app / mobile web with responsive UI. This project have to 2 parts to achieve:
+
+**First Part: Create a Home screen with list of available movies:**
+
+* Ordered by release date (default), alphabetical, rating - can use dropdown
+* Pull to refresh
+* Load when scrolled to bottom
+* Each movie to include:
+   * Poster/Backdrop image
+   * Title
+   * Popularity
+
+**Second Part: Display the movie details which consists of the following:**
+
+* Synopsis
+* Genres
+* Language
+* Duration
+* Book the movie (lead to external website)
+
+**Design Outcome**
+
+![Movie App Homepage](https://imgur.com/gallery/CwhbdlG "Movie App Homepage")
+** [![Movie App Homepage](https://imgur.com/gallery/CwhbdlG)]
+** Movie Details
+
+
+**Design Inspiration**
+The aim of the design is to keep it simple and clean. Here are the component that can be found in the homepage:
+
+* Search Input and Button : User able to look for the movie they type and click search
+* 3 Filter Buttons that display movies based on the criteria below
+   * Released Date (The movies are filter based on the latest released date)
+   * Alphabetically (The movies are filter based on the movie's title)
+   * Popularity (The movies are filter based on popularity from The Movie Database (TMDb))
+* Movie Card : This is every movie that produced from the search, each movie card consist of movie title, released date, and popularity
+* Movie Details button: This button can show the details of the movies
+
+Components in the movie details:
+* Poster
+* Movie title
+* Genres
+* Synopsis
+* Duration
+* Close Button : This will back to homepage
+* Book The Movie Button: This will lead to external website
+
+**Technologies used:**
+* React
+* React Popup (Apply when user click Movie Details Button)
