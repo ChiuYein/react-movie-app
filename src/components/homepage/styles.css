@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #223343;
+    color: #EEE;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 40px;
+}
+
+.title {
+    font-size: 4.4.rem;
+    text-align: center;
+}
+
+
+/* Use CSS grid to style it */
+.form {
+    display: grid;
+}
+
+.label {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    display:block;
+    width:100%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background:none;
+    background-color: #EEE;
+    border-radius: 20px;
+    color: #53565a;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.4s ease-out;
+    /* font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem; */
+}
+
+.button, .view-btn {
+    background-color: rgba(0,0,0,0.75);
+    color: #EEE;
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+}
+
+.button:hover {
+    background-color:rgba(0,0,0,0.85);
+}
+
+
+/* Only taking into account when the screen size is greater than 786px */
+@media (min-width:786px) {
+    .form {
+        /* put the item side by side */
+        grid-template-columns: auto 1fr auto;
+        grid-gap:1rem;
+        align-items: center;
+    }
+
+    .input {
+        margin-bottom: 0;
+    }
+
+    .button {
+        padding: 5px;
+    }
+}
+
+.card {
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    margin: 2rem 0 2rem 0;
+    background-color:white;
+}
+
+.card--title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.card--image {
+    margin: 0 auto;
+    display: block;
+}
+
+.card--title, p {
+    text-align:center;
+}
+
+.view-btn {
+    font-weight: 400;
+    text-align: center;
+}
+
+.sort-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.sort-container button {
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
