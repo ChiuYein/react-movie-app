@@ -22,11 +22,6 @@ The aim of this project is to build a movie app / mobile web with responsive UI 
 * Duration
 * Book the movie (lead to external website)
 
-**Design Outcome**
-
-![Movie App Homepage](/design)
-** [![Movie App Homepage](https://imgur.com/gallery/CwhbdlG)]
-** Movie Details
 
 
 **Design Inspiration**
