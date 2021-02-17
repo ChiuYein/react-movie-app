@@ -53,3 +53,4 @@ Components in the movie details:
 
 **Technologies used:**
 * [React](https://reactjs.org/)
+* [React Popup](https://react-popup.elazizi.com/)
