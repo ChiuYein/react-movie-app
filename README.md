@@ -2,7 +2,7 @@
 
 ## Description:
 
-This is a assessment front-end project. The aim of this assessment is to build a movie app / mobile web with responsive UI. This project have to 2 parts to achieve:
+The aim of this project is to build a movie app / mobile web with responsive UI using React. There are 2 parts that need to build:
 
 **First Part: Create a Home screen with list of available movies:**
 
@@ -24,7 +24,7 @@ This is a assessment front-end project. The aim of this assessment is to build a
 
 **Design Outcome**
 
-![Movie App Homepage](https://imgur.com/gallery/CwhbdlG "Movie App Homepage")
+![Movie App Homepage](/design)
 ** [![Movie App Homepage](https://imgur.com/gallery/CwhbdlG)]
 ** Movie Details
 
