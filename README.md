@@ -22,7 +22,14 @@ The aim of this project is to build a movie app / mobile web with responsive UI 
 * Duration
 * Book the movie (lead to external website)
 
+**Design Outcome**
 
+**Movie App Homepage**
+![Movie App Homepage](https://github.com/ChiuYein/react-movie-app/blob/main/design%20images/movie-app-homepage.jpg)
+
+
+**Movie Details**
+![Movie Details](https://github.com/ChiuYein/react-movie-app/blob/main/design%20images/movie_details.png)
 
 **Design Inspiration**
 The aim of the design is to keep it simple and clean. Here are the component that can be found in the homepage:
@@ -45,5 +52,4 @@ Components in the movie details:
 * Book The Movie Button: This will lead to external website
 
 **Technologies used:**
-* React
-* React Popup (Apply when user click Movie Details Button)
+* [React](https://reactjs.org/)
